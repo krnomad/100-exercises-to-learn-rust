@@ -32,8 +32,8 @@ impl TicketStore {
         id
     }
 
-    // The `get` method should return a handle to the ticket
-    // which allows the caller to either read or modify the ticket.
+// "`get` 메소드는 티켓에 대한 핸들을 반환해야 합니다"
+// "이는 호출자가 티켓을 읽거나 수정할 수 있게 해줍니다."
     pub fn get(&self, id: TicketId) -> Option<todo!()> {
         todo!()
     }

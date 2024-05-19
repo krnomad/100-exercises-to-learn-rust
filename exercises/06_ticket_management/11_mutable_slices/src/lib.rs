@@ -1,6 +1,6 @@
-// TODO: Define a function named `lowercase` that converts all characters in a string to lowercase,
-//  modifying the input in place.
-//  Does it need to take a `&mut String`? Does a `&mut [str]` work? Why or why not?
+// "TODO: 문자열 내 모든 문자를 소문자로 변환하는 `lowercase`라는 함수를 정의하세요."
+// "입력값을 그 자리에서 수정하기."
+// "`&mut String`이 필요한가요? `&mut [str]`은 작동하나요? 그렇다면 왜 그런가요, 아니라면 왜 아닌가요?"
 
 #[cfg(test)]
 mod tests {

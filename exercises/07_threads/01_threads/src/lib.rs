@@ -1,17 +1,17 @@
-// TODO: implement a multi-threaded version of the `sum` function
-//  using `spawn` and `join`.
-//  Given a vector of integers, split the vector into two halves and
-//  sum each half in a separate thread.
+// "TODO: `sum` 함수의 다중 스레드 버전을 구현하십시오"
+// "`spawn`과 `join`을 사용하다."
+// "정수의 벡터가 주어지면, 그 벡터를 두 반쪽으로 나누고"
+// "각각의 절반을 별도의 스레드에서 합산하십시오."
 
-// Caveat: We can't test *how* the function is implemented,
-// we can only verify that it produces the correct result.
-// You _could_ pass this test by just returning `v.iter().sum()`,
-// but that would defeat the purpose of the exercise.
-//
-// Hint: you won't be able to get the spawn threads to _borrow_
-// slices of the vector directly. You'll need to allocate new
-// vectors for each half of the original vector. We'll see why
-// this is necessary in the next exercise.
+// "주의: 우리는 함수가 어떻게 구현되는지 테스트할 수 없습니다."
+// "우리는 그것이 올바른 결과를 생성하는 것만 확인할 수 있습니다."
+// "이 시험은 그냥 `v.iter().sum()`을 반환함으로써 통과할 _수도_ 있습니다."
+// "하지만 그러면 운동의 목적을 상실하게 되겠지요."
+// 해당 영어 코멘트가 공백이므로 번역할 내용이 없습니다.
+// "힌트: 스폰 스레드를 _대출_하는 데는 실패할 것입니다"
+// "벡터를 직접 조각내야 합니다. 새로 할당해야 할 것입니다"
+// "원본 벡터의 각 반퀴에 대한 벡터들입니다. 왜 그런지 보게 될 것입니다"
+// "이것은 다음 연습에서 필요합니다."
 use std::thread;
 
 pub fn sum(v: Vec<i32>) -> i32 {

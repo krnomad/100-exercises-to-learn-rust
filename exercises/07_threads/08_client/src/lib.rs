@@ -6,11 +6,11 @@ pub mod data;
 pub mod store;
 
 #[derive(Clone)]
-// TODO: flesh out the client implementation.
+// "TODO: 클라이언트 구현을 자세히 설계하십시오."
 pub struct TicketStoreClient {}
 
 impl TicketStoreClient {
-    // Feel free to panic on all errors, for simplicity.
+// "단순화를 위해 모든 오류에 대해 자유롭게 패닉하십시오."
     pub fn insert(&self, draft: TicketDraft) -> TicketId {
         todo!()
     }
@@ -26,7 +26,7 @@ pub fn launch() -> TicketStoreClient {
     todo!()
 }
 
-// No longer public! This becomes an internal detail of the library now.
+// "더 이상 공개되지 않습니다! 이제 이것은 라이브러리의 내부 세부사항이 됩니다."
 enum Command {
     Insert {
         draft: TicketDraft,
@@ -57,8 +57,8 @@ pub fn server(receiver: Receiver<Command>) {
                 let _ = response_channel.send(ticket.cloned());
             }
             Err(_) => {
-                // There are no more senders, so we can safely break
-                // and shut down the server.
+// "더 이상 보내는 사람이 없으므로, 안전하게 중단할 수 있습니다."
+// "그리고 서버를 종료하세요."
                 break;
             }
         }

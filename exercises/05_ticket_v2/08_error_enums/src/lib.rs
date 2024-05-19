@@ -1,12 +1,12 @@
-// TODO: Use two variants, one for a title error and one for a description error.
-//   Each variant should contain a string with the explanation of what went wrong exactly.
-//   You'll have to update the implementation of `Ticket::new` as well.
+// "TODO: 제목 오류용과 설명 오류용 두 가지 변형을 사용하세요."
+// "각 변형은 무엇이 정확하게 잘못되었는지 설명하는 문자열을 포함해야 합니다."
+// "당신은 또한 `Ticket::new`의 구현을 업데이트해야 할 것입니다."
 enum TicketNewError {}
 
-// TODO: `easy_ticket` should panic when the title is invalid, using the error message
-//   stored inside the relevant variant of the `TicketNewError` enum.
-//   When the description is invalid, instead, it should use a default description:
-//   "Description not provided".
+// "TODO: 제목이 유효하지 않을 때 `easy_ticket`은 오류 메시지를 사용하여 패닉 상태가 되어야 합니다."
+// "`TicketNewError` 열거형의 관련 변형에 저장됩니다."
+// "설명이 유효하지 않을 때는 대신 기본 설명을 사용해야 합니다:"
+// "설명이 제공되지 않았습니다."
 fn easy_ticket(title: String, description: String, status: Status) -> Ticket {
     todo!()
 }

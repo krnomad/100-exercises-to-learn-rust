@@ -1,6 +1,6 @@
-// TODO: Add `anyhow` as a dependency of this project.
-//  Don't touch this import!
+// "TODO: 이 프로젝트의 종속성으로 `anyhow`을 추가하세요."
+// "이 가져오기를 건드리지 마세요!"
 
-// When you import a type (`Error`) from a dependency, the import path must start
-// with the crate name (`anyhow`, in this case).
+// "당신이 의존성에서 타입 (`Error`)을 가져올 때, 가져오기 경로는 시작해야 합니다."
+// "이 경우에는 크레이트 이름(`anyhow`)과 함께."
 use anyhow::Error;

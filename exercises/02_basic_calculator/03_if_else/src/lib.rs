@@ -1,4 +1,4 @@
-/// Return `true` if `n` is even, `false` otherwise.
+// "/ `n`이 짝수이면 `true`를 반환하고, 그렇지 않으면 `false`를 반환하십시오."
 fn is_even(n: u32) -> bool {
     todo!()
 }

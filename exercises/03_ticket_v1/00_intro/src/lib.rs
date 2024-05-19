@@ -1,5 +1,5 @@
 fn intro() -> &'static str {
-    // TODO: fix me 👇
+// "TODO: 제게 수정이 필요합니다 👇"
     "I'm ready to __!"
 }
 

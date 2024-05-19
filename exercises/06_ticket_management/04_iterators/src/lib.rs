@@ -1,10 +1,10 @@
 use ticket_fields::{TicketDescription, TicketTitle};
 
-// TODO: Let's start sketching our ticket store!
-//  First task: implement `IntoIterator` on `TicketStore` to allow iterating over all the tickets
-//  it contains using a `for` loop.
-//
-// Hint: you shouldn't have to implement the `Iterator` trait in this case.
+// "TODO: 티켓 스토어 스케치를 시작해봅시다!"
+// "첫 번째 작업: 모든 티켓을 순회할 수 있도록 `TicketStore`에 `IntoIterator`를 구현하세요."
+// "`for` 루프를 사용하고 있습니다."
+// You didn't provide a specific comment for translation.
+// "힌트: 이 경우에 `Iterator` 트레이트를 구현할 필요가 없어야 합니다."
 #[derive(Clone)]
 pub struct TicketStore {
     tickets: Vec<Ticket>,

@@ -1,4 +1,4 @@
-// TODO: Implement `Ticket::assigned_to` using `Option` as the return type.
+// "TODO: 반환 형식으로 `Option`을 사용하여 `Ticket::assigned_to`를 구현하세요."
 
 #[derive(Debug, PartialEq)]
 struct Ticket {

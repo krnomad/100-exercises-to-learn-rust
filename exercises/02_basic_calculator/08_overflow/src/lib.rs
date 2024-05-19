@@ -1,9 +1,9 @@
-// Customize the `dev` profile to wrap around on overflow.
-// Check Cargo's documentation to find out the right syntax:
-// https://doc.rust-lang.org/cargo/reference/profiles.html
-//
-// For reasons that we'll explain later, the customization needs to be done in the `Cargo.toml`
-// at the root of the repository, not in the `Cargo.toml` of the exercise.
+// "`dev` 프로필을 오버플로우 시에 감싸도록 커스터마이즈하세요."
+// "Cargo의 문서를 확인하여 올바른 구문을 찾아보세요:"
+// "https://doc.rust-lang.org/cargo/reference/profiles.html"
+// 주어진 영어 댓글이 없습니다. 다른 텍스트를 적어주세요.
+// "우리가 나중에 설명할 이유로, 커스터마이징은 `Cargo.toml`에서 이루어져야 합니다."
+// "저장소의 루트에 있고, 연습문제의`Cargo.toml`에는 없습니다."
 
 pub fn factorial(n: u32) -> u32 {
     let mut result = 1;
@@ -19,12 +19,12 @@ mod tests {
 
     #[test]
     fn twentieth() {
-        // 20! is 2432902008176640000, which is too large to fit in a u32
-        // With the default dev profile, this will panic when you run `cargo test`
-        // We want it to wrap around instead
+// "20! 은 2432902008176640000인데, 이는 u32에 들어갈 수 있을 만큼의 크기가 아닙니다."
+// "기본 개발 프로필로는 `cargo test`를 실행할 때 패닉이 발생합니다."
+// "우리는 대신 그것이 둘러싸도록 하고 싶습니다"
         assert_eq!(factorial(20), 2_192_834_560);
-        //                           ☝️
-        // A large number literal using underscores to improve readability!
+// "☝️"
+// "가독성을 높이기 위해 밑줄을 사용하는 큰 숫자 리터럴!"
     }
 
     #[test]

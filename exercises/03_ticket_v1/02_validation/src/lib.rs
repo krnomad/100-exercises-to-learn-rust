@@ -5,17 +5,17 @@ struct Ticket {
 }
 
 impl Ticket {
-    // TODO: implement the `new` function.
-    //  The following requirements should be met:
-    //   - Only `To-Do`, `In Progress`, and `Done` statuses are allowed.
-    //   - The `title` and `description` fields should not be empty.
-    //   - the `title` should be at most 50 bytes long.
-    //   - the `description` should be at most 500 bytes long.
-    //  The method should panic if any of the requirements are not met.
-    //
-    // You'll have to use what you learned in the previous exercises,
-    // as well as some `String` methods. Use the documentation of Rust's standard library
-    // to find the most appropriate options -> https://doc.rust-lang.org/std/string/struct.String.html
+// "TODO: `new` 함수를 구현하시오."
+// "다음의 요구사항이 충족되어야 합니다:"
+// "- 오직 `To-Do`, `진행 중`, 그리고 `완료` 상태만 허용됩니다."
+// "- `title`과 `description` 필드는 비워 두면 안 됩니다."
+// "- `title`은 최대 50 바이트까지 가능합니다."
+// "- `description`은 최대 500 바이트까지 여야 합니다."
+// "요구 사항이 충족되지 않는 경우 메소드는 패닉 상태가 되어야 합니다."
+// You didn't provide the English comment you want to be translated into Korean. Please provide the comment.
+// "당신은 이전의 연습에서 배운 것을 사용해야 합니다."
+// "일부 `String` 메소드와 함께 사용하세요. Rust의 표준 라이브러리 문서를 참조하세요."
+// "가장 적합한 옵션을 찾기 위해서 -> https://doc.rust-lang.org/std/string/struct.String.html"
     fn new(title: String, description: String, status: String) -> Self {
         todo!();
         Self {

@@ -1,4 +1,4 @@
-// TODO: Re-implement `Ticket`'s accessor methods. This time return a `&str` rather than a `&String`.
+// "TODO: `Ticket`의 접근자 메소드를 다시 구현하십시오. 이번에는 `&String`이 아닌 `&str`을 반환하십시오."
 
 pub struct Ticket {
     title: String,
@@ -53,7 +53,7 @@ mod tests {
     #[test]
     fn test_type() {
         let ticket = Ticket::new(valid_title(), valid_description(), "To-Do".to_string());
-        // Some dark magic to verify that you used the expected return types
+// "예상한 반환 타입을 사용했는지 확인하는 몇몇의 어두운 마법"
         assert_eq!(TypeId::of::<str>(), ticket.title().type_id());
         assert_eq!(TypeId::of::<str>(), ticket.description().type_id());
         assert_eq!(TypeId::of::<str>(), ticket.status().type_id());

@@ -1,6 +1,6 @@
 mod helpers {
-    // TODO: Make this code compile, either by adding a `use` statement or by using
-    //  the appropriate path to refer to the `Ticket` struct.
+// "TODO: `use` 문을 추가하거나 사용하여 이 코드를 컴파일 할 수 있게 만드세요."
+// "`Ticket` 구조체를 참조하기 위한 적절한 경로."
 
     fn create_todo_ticket(title: String, description: String) -> Ticket {
         Ticket::new(title, description, "To-Do".into())

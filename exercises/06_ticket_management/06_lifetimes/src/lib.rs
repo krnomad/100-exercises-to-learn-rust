@@ -1,6 +1,6 @@
 use ticket_fields::{TicketDescription, TicketTitle};
 
-// TODO: Implement the `IntoIterator` trait for `&TicketStore` so that the test compiles and passes.
+// "TODO: 테스트가 컴파일되고 통과하도록 `&TicketStore`에 `IntoIterator` 트레잇을 구현하십시오."
 #[derive(Clone)]
 pub struct TicketStore {
     tickets: Vec<Ticket>,
