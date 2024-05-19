@@ -8,19 +8,19 @@ Rust에 대해 아무것도 모르는 상태에서 자신만의 프로그램을
 자신만의 프로그램을 작성할 수 있게 될 것입니다.
 
 > [!note]
-> 이 강좌는 [Mainmatter](https://mainmatter.com/rust-consulting/)가 작성했습니다.  
-> Rust 워크샵 포트폴리오](https://mainmatter.com/services/workshops/rust/)의 교육 중 하나입니다.  
-Rust 컨설팅이나 > 교육을 찾고 계신다면 [랜딩 페이지](https://mainmatter.com/rust-consulting/)를 확인하세요.
+> 이 강좌는 [Mainmatter](https://mainmatter.com/rust-consulting)가 작성했습니다.  
+> [Rust 워크샵 포트폴리오](https://mainmatter.com/services/workshops/rust/)의 교육 중 하나입니다.  
+Rust 컨설팅이나 > 교육을 찾고 계신다면 [랜딩 페이지](https://mainmatter.com/rust-consulting)를 확인하세요.
 > 교육!
 
 ## 시작하기
 
-rust-exercises.com](https://rust-exercises.com)으로 이동하여 그곳의 안내에 따라
+[rust-exercises.com](https://rust-exercises.com)으로 이동하여 그곳의 안내에 따라
 안내에 따라 과정을 시작하세요.
 
 ## 요구 사항
 
-- **Rust**(여기](https://www.rust-lang.org/tools/install) 지침을 따르세요).  
+- **Rust**([여기](https://www.rust-lang.org/tools/install) 지침을 따르세요).  
   시스템에 `rustup`이 이미 설치되어 있는 경우, `rustup update`(또는 시스템에 Rust를 설치한 방법에 따라 다른 적절한 명령어
   시스템에 Rust를 설치한 방법에 따라 다른 적절한 명령어)
   를 실행하여 안정적인 최신 버전으로 실행 중인지 확인하세요.
