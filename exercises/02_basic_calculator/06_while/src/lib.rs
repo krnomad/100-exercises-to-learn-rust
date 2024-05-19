@@ -1,10 +1,15 @@
 // "`while` 루프를 사용하여 팩토리얼 함수를 다시 작성하십시오."
-pub fn factorial(n: u32) -> u32 {
+pub fn factorial(mut n: u32) -> u32 {
 // "`todo!()` 매크로는 컴파일러의 플레이스홀더입니다."
 // "이것은 '나중에 다시 이것에 참여하겠다'로 해석된다, 따라서"
 // "타입 오류를 억제하다."
 // "런타임에 패닉이 발생합니다."
-    todo!()
+    let mut result = 1;
+    while n > 0 {
+        result *= n;
+        n -= 1;
+    }
+    result
 }
 
 #[cfg(test)]

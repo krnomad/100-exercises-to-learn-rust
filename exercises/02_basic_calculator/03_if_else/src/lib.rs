@@ -1,6 +1,10 @@
 // "/ `n`이 짝수이면 `true`를 반환하고, 그렇지 않으면 `false`를 반환하십시오."
 fn is_even(n: u32) -> bool {
-    todo!()
+    if n % 2 == 0 {
+        true
+    } else {
+        false
+    }
 }
 
 #[cfg(test)]

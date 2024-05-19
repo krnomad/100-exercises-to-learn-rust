@@ -10,6 +10,14 @@
 // As there is no text to translate, I cannot provide a translation. Please provide a text in English to translate to Korean.
 // "배운 것만 사용하세요! 아직 루프를 사용할 수 없으니, 재귀를 사용해야 합니다!"
 
+fn factorial(p0: i32) -> i32 {
+    if p0 == 0 {
+        1
+    } else {
+        p0*factorial(p0-1)
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use crate::factorial;
@@ -18,6 +26,8 @@ mod tests {
     fn first() {
         assert_eq!(factorial(0), 1);
     }
+
+
 
     #[test]
     fn second() {

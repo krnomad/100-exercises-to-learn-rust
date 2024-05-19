@@ -1,6 +1,11 @@
 // "`for` 루프를 사용하여 팩토리얼 함수를 다시 작성하십시오."
 pub fn factorial(n: u32) -> u32 {
-    todo!()
+    let mut result = 1;
+    for i in 1..=n {
+        result *= i;
+    }
+
+    result
 }
 
 #[cfg(test)]

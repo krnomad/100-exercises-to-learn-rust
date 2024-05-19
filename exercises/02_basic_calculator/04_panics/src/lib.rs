@@ -2,7 +2,9 @@
 // "/ 여행의 평균 속도를 계산하다."
 fn speed(start: u32, end: u32, time_elapsed: u32) -> u32 {
 // "TODO: `time_elapsed`가 0이면 커스텀 메시지와 함께 패닉 발생시키기"
-
+    if time_elapsed == 0 {
+        panic!("The journey took no time at all, that's impossible!")
+    }
     (end - start) / time_elapsed
 }
 
