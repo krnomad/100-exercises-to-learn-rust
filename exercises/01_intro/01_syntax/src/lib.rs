@@ -1,10 +1,10 @@
-// TODO: fix the function signature below to make the tests pass.
-//  Make sure to read the compiler error message—the Rust compiler is your pair programming
-//  partner in this course and it'll often guide you in the right direction!
-//
-// The input parameters should have the same type of the return type.
+// "TODO: 아래의 함수 서명을 수정하여 테스트를 통과하게 만드세요."
+// "컴파일러 오류 메시지를 꼭 읽어봐라—Rust 컴파일러는 너의 페어 프로그래밍 파트너다"
+// "이 과정에서의 파트너이며, 종종 당신을 올바른 방향으로 안내해줄 것입니다!"
+// 영어 코멘트를 입력해주세요.
+// "입력 매개변수는 반환 타입과 동일한 유형이어야 합니다."
 fn compute(a, b) -> u32 {
-    // Don't touch the function body.
+// "함수 본문을 건드리지 마세요."
     a + b * 2
 }
 
