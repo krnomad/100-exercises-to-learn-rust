@@ -30,10 +30,10 @@ pub mod ticket {
             }
         }
 
-        // TODO: Add three public methods to the `Ticket` struct:
-        //  - `title` that returns the `title` field.
-        //  - `description` that returns the `description` field.
-        //  - `status` that returns the `status` field.
+// "TODO: `Ticket` 구조체에 세 개의 공개 메소드를 추가하세요:"
+// "- `title`은 `title` 필드를 반환합니다."
+// "- `description`이 `description` 필드를 반환합니다."
+// "- `status`는 `status` 필드를 반환합니다."
     }
 }
 

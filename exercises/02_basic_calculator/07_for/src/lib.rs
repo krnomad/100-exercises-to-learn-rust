@@ -1,4 +1,4 @@
-// Rewrite the factorial function using a `for` loop.
+// "`for` 루프를 사용하여 팩토리얼 함수를 다시 작성하십시오."
 pub fn factorial(n: u32) -> u32 {
     todo!()
 }

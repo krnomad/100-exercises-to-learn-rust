@@ -1,5 +1,5 @@
-// TODO: Implement the `to_dos` method. It must return a `Vec` of references to the tickets
-//  in `TicketStore` with status set to `Status::ToDo`.
+// "TODO: `to_dos` 메소드를 구현하세요. 이 메소드는 티켓들에 대한 참조를 `Vec`으로 반환해야 합니다."
+// "`TicketStore`에서 상태가 `Status::ToDo`로 설정된 상태에서."
 use ticket_fields::{TicketDescription, TicketTitle};
 
 #[derive(Clone)]

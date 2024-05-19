@@ -1,6 +1,6 @@
-// TODO: Implement `Ticket::assigned_to`.
-//  Return the name of the person assigned to the ticket, if the ticket is in progress.
-//  Panic otherwise.
+// "TODO: `Ticket::assigned_to`를 구현하십시오."
+// "티켓이 진행 중인 경우, 해당 티켓에 할당된 사람의 이름을 반환하세요."
+// "그렇지 않으면 패닉에 빠질 수 있습니다."
 
 #[derive(Debug, PartialEq)]
 struct Ticket {

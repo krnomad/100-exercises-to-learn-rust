@@ -1,5 +1,5 @@
-// TODO: add the necessary `Clone` implementations (and invocations)
-//  to get the code to compile.
+// "TODO: 필요한 `Clone` 구현들 (및 호출들)을 추가하세요"
+// "코드를 컴파일하게 하려면."
 
 pub fn summary(ticket: Ticket) -> (Ticket, Summary) {
     (ticket, ticket.summary())

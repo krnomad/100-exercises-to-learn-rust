@@ -1,10 +1,10 @@
-// TODO: Define a new `SaturatingU16` type.
-//   It should hold a `u16` value.
-//   It should provide conversions from `u16`, `u8`, `&u16` and `&u8`.
-//   It should support addition with a right-hand side of type
-//   SaturatingU16, u16, &u16, and &SaturatingU16. Addition should saturate at the
-//   maximum value for `u16`.
-//   It should be possible to compare it with another `SaturatingU16` or a `u16`.
-//   It should be possible to print its debug representation.
-//
-// Tests are located in the `tests` folder—pay attention to the visibility of your types and methods.
+// "TODO: 새로운 `SaturatingU16` 타입을 정의하십시오."
+// "`u16` 값이 들어가야 합니다."
+// "`u16`, `u8`, `&u16` 및 `&u8`에서 변환을 제공해야 합니다."
+// "이것은 오른쪽 타입의 덧셈을 지원해야 합니다"
+// "SaturatingU16, u16, &u16, 그리고 &SaturatingU16. 덧셈은 이 지점에서 포화 상태가 되어야 합니다."
+// "`u16`의 최대 값."
+// "다른 `SaturatingU16`이나 `u16`과 비교할 수 있어야 합니다."
+// "디버그 표현을 출력할 수 있어야 합니다."
+// 비어있는 문자를 번역할 내용이 없습니다.
+// "테스트들은 `tests` 폴더에 위치해 있습니다—자신의 타입과 메서드의 가시성에 주의를 기울이십시오."

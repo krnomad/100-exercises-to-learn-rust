@@ -1,5 +1,5 @@
 fn compute(a: u32, b: u32) -> u32 {
-    // TODO: change the line below to fix the compiler error and make the tests pass.
+// "TODO: 컴파일러 오류를 수정하고 테스트를 통과시키기 위해 아래 줄을 변경하세요."
     a + b * 4u8
 }
 

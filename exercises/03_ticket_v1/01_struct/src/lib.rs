@@ -1,9 +1,9 @@
-// Define a struct named `Order` with the following fields:
-// - `price`, an unsigned integer
-// - `quantity`, an unsigned integer
-//
-// It should also have a method named `is_available` that returns a `true` if the quantity is
-// greater than 0, otherwise `false`.
+// "다음 필드를 가진 `Order`라는 이름의 구조체를 정의하세요:"
+// "- `price`, 부호가 없는 정수"
+// "- `quantity`, 부호가 없는 정수"
+// Your request seems to be empty. Can you provide a text for translation?
+// "또한 `is_available`이라는 메소드를 가지고 있어야 하며, 이는 수량이 있을 경우 `true`를 반환해야 합니다."
+// "0보다 크면, 그렇지 않으면 '거짓'."
 
 #[cfg(test)]
 mod tests {

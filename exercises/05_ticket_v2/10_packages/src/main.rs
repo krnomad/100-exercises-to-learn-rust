@@ -1,11 +1,11 @@
-// This is a `main.rs` file, therefore `cargo` interprets this as the root of a binary target.
+// "이것은 `main.rs` 파일이므로, `cargo`는 이것을 바이너리 타겟의 루트로 해석합니다."
 
-// TODO: fix this broken import. Create a new library target in the `src` directory.
-//   The library target should expose a public function named `hello_world` that takes no arguments
-//   and returns nothing.
+// "TODO: 이 깨진 import를 수정하십시오. `src` 디렉토리에 새 라이브러리 타겟을 생성하십시오."
+// "라이브러리 타겟은 `hello_world`라는 이름의 공개 함수를 노출해야 하며, 이 함수는 인수를 받지 않아야 합니다."
+// "그리고 아무것도 반환하지 않습니다."
 use packages::hello_world;
 
-// This is the entrypoint of the binary.
+// "이것은 바이너리의 엔트리포인트입니다."
 fn main() {
     hello_world();
 }

@@ -1,8 +1,8 @@
 use outro_02::Order;
 
-// Files inside the `tests` directory are only compiled when you run tests.
-// As a consequence, we don't need the `#[cfg(test)]` attribute for conditional compilation—it's
-// implied.
+// "`tests` 디렉토리 내의 파일들은 테스트를 실행할 때만 컴파일됩니다."
+// "결과적으로, 조건부 컴파일을 위한 `#[cfg(test)]` 속성이 필요 없게 되었습니다—그것은"
+// "시사하는."
 
 #[test]
 fn test_order() {
@@ -23,7 +23,7 @@ fn test_order() {
     assert_eq!(order.total(), 7998);
 }
 
-// Validation tests
+// "유효성 검사"
 #[test]
 #[should_panic]
 fn test_empty_product_name() {

@@ -1,4 +1,4 @@
-// TODO: Implement `Index<&TicketId>` and `Index<TicketId>` for `TicketStore`.
+// "TODO: `TicketStore`에 대해 `Index<&TicketId>`와 `Index<TicketId>`를 구현하세요."
 
 use ticket_fields::{TicketDescription, TicketTitle};
 

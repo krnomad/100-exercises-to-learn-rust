@@ -7,7 +7,7 @@ enum Shape {
 }
 
 impl Shape {
-    // TODO: Implement the `n_sides` method using a `match`.
+// "TODO: `match`를 사용하여 `n_sides` 메소드를 구현하십시오."
     pub fn n_sides(&self) -> u8 {
         todo!()
     }
