@@ -26,9 +26,9 @@ Rust 컨설팅이나 > 교육을 찾고 계신다면 [랜딩 페이지](https://
   를 실행하여 안정적인 최신 버전으로 실행 중인지 확인하세요.
 - (선택 사항이지만 권장 사항)_ Rust 자동 완성 기능을 지원하는 IDE.
   다음 중 하나를 권장합니다:
-  - [RustRover](https://www.jetbrains.com/rust/);
-  - 비주얼 스튜디오 코드](https://code.visualstudio.com)
-    러스트 분석기](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) 확장을 사용하는 것이 좋습니다.
+  - [RustRover](https://www.jetbrains.com/rust)
+  - [비주얼 스튜디오 코드](https://code.visualstudio.com)
+    [러스트 분석기](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) 확장을 사용하는 것이 좋습니다.
 
 ## 솔루션
 
