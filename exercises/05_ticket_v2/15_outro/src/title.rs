@@ -1,6 +1,6 @@
-// TODO: Implement `TryFrom<String>` and `TryFrom<&str>` for the `TicketTitle` type,
-//   enforcing that the title is not empty and is not longer than 50 characters.
-//   Implement the traits required to make the tests pass too.
+// "TODO: `TicketTitle` 타입에 대해 `TryFrom<String>`와 `TryFrom<&str>` 구현하기,"
+// "제목이 비어 있지 않고 50자를 초과하지 않도록 강제하는 것."
+// "테스트가 통과하도록 필요한 특성들을 구현하세요."
 
 pub struct TicketTitle(String);
 

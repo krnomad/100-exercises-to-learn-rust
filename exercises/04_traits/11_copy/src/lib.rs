@@ -1,5 +1,5 @@
-// TODO: implement the necessary traits to make the test compile and pass.
-//  You *can't* modify the test.
+// "TODO: 테스트가 컴파일되고 통과하도록 필요한 특성을 구현하십시오."
+// "당신은 테스트를 수정할 수 *없습니다*."
 
 pub struct WrappingU32 {
     value: u32,

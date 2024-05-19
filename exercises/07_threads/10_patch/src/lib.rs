@@ -1,6 +1,6 @@
 use std::sync::mpsc::{sync_channel, Receiver, SyncSender};
 
-// TODO: Implement the patching functionality.
+// "TODO: 패치 기능 구현을 해야 합니다."
 use crate::data::{Ticket, TicketDraft, TicketPatch};
 use crate::store::{TicketId, TicketStore};
 
@@ -88,8 +88,8 @@ pub fn server(receiver: Receiver<Command>) {
                 todo!()
             }
             Err(_) => {
-                // There are no more senders, so we can safely break
-                // and shut down the server.
+// "더 이상 보내는 사람이 없으므로, 안전하게 중단할 수 있습니다."
+// "그리고 서버를 종료하세요."
                 break;
             }
         }

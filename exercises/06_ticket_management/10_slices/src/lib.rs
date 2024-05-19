@@ -1,5 +1,5 @@
-// TODO: Define a function named `sum` that takes a reference to a slice of `u32` and returns the sum of all
-//  elements in the slice.
+// "TODO: `u32`의 슬라이스 참조를 입력받아 총합을 반환하는 `sum`이라는 함수를 정의하세요."
+// "슬라이스 안의 요소들."
 
 #[cfg(test)]
 mod tests {

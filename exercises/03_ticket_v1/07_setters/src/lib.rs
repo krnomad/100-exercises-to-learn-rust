@@ -1,6 +1,6 @@
-// TODO: Add &mut-setters to the `Ticket` struct for each of its fields.
-//   Make sure to enforce the same validation rules you have in `Ticket::new`!
-//   Even better, extract that logic into private methods and reuse it in both places.
+// "TODO: 각 필드에 대해 `Ticket` 구조체에 &mut-setter를 추가하십시오."
+// "`Ticket::new`에서 사용한 동일한 유효성 검사 규칙을 반드시 적용하십시오!"
+// "더 나아가, 해당 로직을 private 메소드로 추출하고 두 곳에서 모두 재사용하세요."
 
 pub struct Ticket {
     title: String,

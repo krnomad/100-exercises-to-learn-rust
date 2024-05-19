@@ -4,7 +4,7 @@ use ticket_fields::test_helpers::{ticket_description, ticket_title};
 
 #[test]
 fn insert_works() {
-    // Notice how much simpler the test is now that we have a client to handle the details!
+// "자세한 사항을 처리할 클라이언트가 생겼으니 이제 테스트가 얼마나 간단해졌는지 주목하세요!"
     let client = launch();
     let draft = TicketDraft {
         title: ticket_title(),

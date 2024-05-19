@@ -1,4 +1,4 @@
-// TODO: Convert the implementation to use bounded channels.
+// "TODO: 구현을 경계 채널을 사용하도록 변환하십시오."
 use crate::data::{Ticket, TicketDraft};
 use crate::store::{TicketId, TicketStore};
 use std::sync::mpsc::{Receiver, Sender};
@@ -57,8 +57,8 @@ pub fn server(receiver: Receiver<Command>) {
                 todo!()
             }
             Err(_) => {
-                // There are no more senders, so we can safely break
-                // and shut down the server.
+// "더 이상 보내는 사람이 없으므로, 우리는 안전하게 중단할 수 있습니다."
+// "그리고 서버를 종료하세요."
                 break;
             }
         }

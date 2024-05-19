@@ -1,6 +1,6 @@
-// TODO: Given a vector of integers, split it in two halves
-//  and compute the sum of each half in a separate thread.
-//  Don't perform any heap allocation. Don't leak any memory.
+// "TODO: 정수 벡터가 주어지면, 이를 두 개의 반으로 분할하십시오."
+// "그리고 각 반의 합계를 별도의 스레드에서 계산하십시오."
+// "어떠한 힙 할당도 수행하지 마십시오. 메모리를 어떤 형태로도 유출하지 마십시오."
 
 pub fn sum(v: Vec<i32>) -> i32 {
     todo!()

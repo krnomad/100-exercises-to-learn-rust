@@ -1,13 +1,13 @@
-// TODO: Define a new `Order` type.
-//   It should keep track of three pieces of information: `product_name`, `quantity`, and `unit_price`.
-//   The product name can't be empty and it can't be longer than 300 characters.
-//   The quantity must be strictly greater than zero.
-//   The unit price is in cents and must be strictly greater than zero.
-//   Order must include a method named `total` that returns the total price of the order.
-//   Order must provide setters and getters for each field.
-//
-// Tests are located in a different place this time—in the `tests` folder.
-// The `tests` folder is a special location for `cargo`. It's where it looks for **integration tests**.
-// Integration here has a very specific meaning: they test **the public API** of your project.
-// You'll need to pay attention to the visibility of your types and methods; integration
-// tests can't access private or `pub(crate)` items.
+// "TODO: 새로운 `Order` 타입을 정의하십시오."
+// "세 가지 정보를 추적해야 합니다: `product_name`, `quantity`, 그리고 `unit_price`."
+// "제품 이름은 비워둘 수 없으며, 300자를 초과할 수 없습니다."
+// "수량은 반드시 영보다 커야 합니다."
+// "단가는 센트로 표시되어야 하며, 반드시 0보다 커야 합니다."
+// "주문은 `total`이라는 메소드를 포함해야하며, 이는 주문의 총 가격을 반환해야 합니다."
+// "명령은 각 필드에 대한 세터와 게터를 제공해야 합니다."
+// You didn't provide any text to translate. Could you please provide some text?
+// "테스트는 이번에 다른 곳에 위치해 있습니다 —`tests` 폴더에 있습니다."
+// "`tests` 폴더는 `cargo`에게 특별한 위치입니다. 이곳은 **통합 테스트**를 찾는 곳입니다."
+// "여기서 통합이라는 개념은 매우 구체적인 의미를 가지고 있습니다: 그들은 프로젝트의 **공개 API**를 테스트합니다."
+// "당신은 자신의 유형과 메소드의 가시성에 주의를 기울여야 합니다; 통합"
+// "테스트는 private 또는 `pub(crate)` 항목에 접근할 수 없습니다."

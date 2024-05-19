@@ -1,6 +1,6 @@
-// TODO: Fill in the missing methods for `TicketStore`.
-//  Notice how we no longer need a separate update command: `Get` now returns a handle to the ticket
-//  which allows the caller to both modify and read the ticket.
+// "TODO: `TicketStore`에 누락된 메서드를 채우세요."
+// "별도의 업데이트 명령이 더 이상 필요 없음을 주목하세요: `Get`이 이제 티켓에 대한 핸들을 반환합니다"
+// "이는 호출자가 티켓을 수정하고 읽을 수 있게 합니다."
 use std::sync::mpsc::{sync_channel, Receiver, SyncSender, TrySendError};
 use std::sync::{Arc, Mutex};
 
@@ -79,8 +79,8 @@ pub fn server(receiver: Receiver<Command>) {
                 let _ = response_channel.send(ticket);
             }
             Err(_) => {
-                // There are no more senders, so we can safely break
-                // and shut down the server.
+// "더 이상의 발송자가 없으므로, 우리는 안전하게 중단할 수 있습니다."
+// "그리고 서버를 종료하십시오."
                 break;
             }
         }

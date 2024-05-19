@@ -1,5 +1,5 @@
-// TODO: Rework the signature of `TicketStore::add_ticket` to use a generic type parameter rather
-//  than `impl Trait` syntax.
+// "TODO: `TicketStore::add_ticket`의 서명을 일반 유형 매개변수를 사용하도록 재작업하십시오."
+// "`impl Trait` 구문보다."
 
 use ticket_fields::{TicketDescription, TicketTitle};
 
@@ -29,10 +29,10 @@ impl TicketStore {
         }
     }
 
-    // Using `Into<Ticket>` as the type parameter for `ticket` allows the method to accept any type
-    // that can be infallibly converted into a `Ticket`.
-    // This can make it nicer to use the method, as it removes the syntax noise of `.into()`
-    // from the calling site. It can worsen the quality of the compiler error messages, though.
+// "`Into<Ticket>`을 `ticket`의 유형 매개변수로 사용하면, 이 메소드는 모든 유형을 허용합니다."
+// "그것은 틀림없이 `티켓`으로 변환될 수 있습니다."
+// "`.into()`의 문법적인 잡음을 제거함으로써, 이것은 메소드를 사용하는 것을 더 쾌적하게 만들 수 있습니다."
+// "호출하는 사이트에서. 그러나 컴파일러 오류 메시지의 품질을 악화시킬 수 있습니다."
     pub fn add_ticket(&mut self, ticket: impl Into<Ticket>) {
         self.tickets.push(ticket.into());
     }
@@ -61,7 +61,7 @@ mod tests {
     #[test]
     fn generic_add() {
         let mut store = TicketStore::new();
-        // This won't compile if `add_ticket` uses `impl Trait` syntax in argument position.
+// "`add_ticket`가 인자 위치에서 `impl Trait` 구문을 사용하면 이것은 컴파일되지 않을 것입니다."
         store.add_ticket::<TicketDraft>(TicketDraft {
             title: ticket_title(),
             description: ticket_description(),

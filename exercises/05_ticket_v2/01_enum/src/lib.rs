@@ -1,9 +1,9 @@
-// TODO: use `Status` as type for `Ticket::status`
-//   Adjust the signature and implementation of all other methods as necessary.
+// "TODO: `Ticket::status`의 유형으로 `Status`를 사용하십시오"
+// "필요에 따라 모든 기타 메소드의 서명과 구현을 조정하십시오."
 
 #[derive(Debug, PartialEq)]
-// `derive`s are recursive: it can only derive `PartialEq` if all fields also implement `PartialEq`.
-// Same holds for `Debug`. Do what you must with `Status` to make this work.
+// "`derive`는 재귀적입니다: 모든 필드가 `PartialEq`를 구현했을 때에만 `PartialEq`를 유도할 수 있습니다."
+// "`Debug`에 대해서도 동일하게 적용됩니다. 이것이 작동하도록 `Status`를 필요한 대로 조작하십시오."
 struct Ticket {
     title: String,
     description: String,
@@ -11,7 +11,7 @@ struct Ticket {
 }
 
 enum Status {
-    // TODO: add the missing variants
+// "TODO: 누락된 변형들을 추가하십시오"
 }
 
 impl Ticket {

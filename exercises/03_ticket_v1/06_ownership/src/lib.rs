@@ -1,7 +1,7 @@
-// TODO: based on what we just learned about ownership, it sounds like immutable references
-//   are a good fit for our accessor methods.
-//   Change the existing implementation of `Ticket`'s accessor methods take a reference
-//   to `self` as an argument, rather than taking ownership of it.
+// "TODO: 우리가 방금 소유권에 대해 배운 것을 기반으로, 불변의 참조처럼 들립니다"
+// "우리의 액세서 메소드에 잘 맞습니다."
+// "`Ticket`의 접근자 메소드의 기존 구현을 참조로 변경하십시오."
+// "`self`를 소유권을 가지는 것이 아니라, 인자로 사용합니다."
 
 pub struct Ticket {
     title: String,
@@ -54,9 +54,9 @@ mod tests {
     #[test]
     fn works() {
         let ticket = Ticket::new("A title".into(), "A description".into(), "To-Do".into());
-        // If you change the signatures as requested, this should compile:
-        // we can call these methods one after the other because they borrow `self`
-        // rather than taking ownership of it.
+// "요청한 대로 서명을 변경하면 이것은 컴파일 될 것입니다:"
+// "우리는 이런 메서드들을 차례대로 호출할 수 있습니다 왜냐하면 그들은 `self`를 빌려오기 때문입니다."
+// "그것을 소유하는 것보다는."
         assert_eq!(ticket.title(), "A title");
         assert_eq!(ticket.description(), "A description");
         assert_eq!(ticket.status(), "To-Do");

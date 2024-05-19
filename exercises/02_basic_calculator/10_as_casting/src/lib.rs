@@ -1,5 +1,5 @@
-// TODO: based on what you learned in this section, replace `todo!()` with
-//  the correct value after the conversion.
+// "TODO: 이 섹션에서 배운 내용을 바탕으로 `todo!()`를 다음으로 교체하십시오."
+// "변환 후의 정확한 값."
 
 #[cfg(test)]
 mod tests {

@@ -1,6 +1,6 @@
-// TODO: Given a static slice of integers, split the slice into two halves and
-//  sum each half in a separate thread.
-//  Do not allocate any additional memory!
+// "TODO: 정적인 정수 슬라이스가 주어졌을 때, 슬라이스를 두 반으로 나누세요."
+// "각 반을 별도의 스레드에서 합산하십시오."
+// "추가적인 메모리를 할당하지 마세요!"
 use std::thread;
 
 pub fn sum(slice: &'static [i32]) -> i32 {

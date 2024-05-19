@@ -1,5 +1,5 @@
-// TODO: fix the `assert_eq` at the end of the tests.
-//  Do you understand why that's the resulting output?
+// "TODO: 테스트의 끝에 있는 `assert_eq`를 수정하십시오."
+// "그것이 결과 출력인 이유를 이해하시나요?"
 use std::time::Duration;
 use tokio::io::AsyncReadExt;
 use tokio::net::TcpListener;
@@ -35,12 +35,12 @@ mod tests {
 
             let (beginning, end) = message.split_at(message.len() / 2);
 
-            // Send first half
+// "첫 번째 절반을 보내세요"
             writer.write_all(beginning.as_bytes()).await.unwrap();
             tokio::time::sleep(timeout * 2).await;
             writer.write_all(end.as_bytes()).await.unwrap();
 
-            // Close the write side of the socket
+// "소켓의 쓰기 측을 닫으십시오"
             let _ = writer.shutdown().await;
         }
 

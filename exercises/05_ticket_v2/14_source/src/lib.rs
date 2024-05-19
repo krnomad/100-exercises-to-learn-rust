@@ -1,17 +1,17 @@
 use crate::status::Status;
 
-// We've seen how to declare modules in one of the earliest exercises, but
-// we haven't seen how to extract them into separate files.
-// Let's fix that now!
-//
-// In the simplest case, when the extracted module is a single file, it is enough to
-// create a new file with the same name as the module and move the module content there.
-// The module file should be placed in the same directory as the file that declares the module.
-// In this case, `src/lib.rs`, thus `status.rs` should be placed in the `src` directory.
+// "가장 초기의 연습 중 하나에서 모듈을 선언하는 방법을 보았지만,"
+// "우리는 그것들을 별도의 파일로 추출하는 방법을 보지 못했습니다."
+// "지금 고쳐 봅시다!"
+// You haven't provided any English comment. Please provide the text you need to translate.
+// "가장 간단한 경우로, 추출된 모듈이 단일 파일일 때에는 이것으로 충분합니다."
+// "모듈과 같은 이름의 새 파일을 만들고 모듈 내용을 그곳으로 이동하십시오."
+// "모듈 파일은 모듈을 선언하는 파일과 같은 디렉토리에 위치시켜야 합니다."
+// "이 경우에는 `src/lib.rs`, 따라서 `status.rs`는 `src` 디렉토리에 위치해야 합니다."
 mod status;
 
-// TODO: Add a new error variant to `TicketNewError` for when the status string is invalid.
-//   When calling `source` on an error of that variant, it should return a `ParseStatusError` rather than `None`.
+// "TODO: 상태 문자열이 유효하지 않을 경우를 위한 `TicketNewError`에 새로운 오류 변형을 추가하세요."
+// "그 변형의 오류에 `source`를 호출할 때, `None`이 아닌 `ParseStatusError`를 반환해야 합니다."
 
 #[derive(Debug, thiserror::Error)]
 pub enum TicketNewError {
@@ -47,7 +47,7 @@ impl Ticket {
             return Err(TicketNewError::DescriptionTooLong);
         }
 
-        // TODO: Parse the status string into a `Status` enum.
+// "TODO: 상태 문자열을 `Status` 열거형으로 구문 분석하십시오."
 
         Ok(Ticket {
             title,

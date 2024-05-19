@@ -1,7 +1,7 @@
-// TODO: Flesh out the `WeekTemperatures` struct and its method implementations to pass the tests.
+// "TODO: 테스트에 통과하기 위해 `WeekTemperatures` 구조체와 그 메소드 구현부를 완성하세요."
 
 pub struct WeekTemperatures {
-    // TODO
+// "해야 할 일"
 }
 
 pub enum Weekday {

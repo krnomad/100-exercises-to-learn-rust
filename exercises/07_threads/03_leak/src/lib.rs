@@ -1,7 +1,7 @@
-// TODO: Given a vector of integers, leak its heap allocation.
-//  Then split the resulting static slice into two halves and
-//  sum each half in a separate thread.
-//  Hint: check out `Vec::leak`.
+// "TODO: 정수 벡터가 주어지면, 그것의 힙 할당을 유출하십시오."
+// "그런 다음 결과적으로 생성된 정적 슬라이스를 두 반으로 나누고"
+// "각 절반을 별도의 스레드에서 합산하세요."
+// "힌트: `Vec::leak`을 확인해보세요."
 
 use std::thread;
 

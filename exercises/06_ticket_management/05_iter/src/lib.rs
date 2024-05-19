@@ -1,6 +1,6 @@
 use ticket_fields::{TicketDescription, TicketTitle};
 
-// TODO: Provide an `iter` method that returns an iterator over `&Ticket` items.
+// "TODO: `&Ticket` 항목에 대한 반복자를 반환하는 `iter` 메소드를 제공하세요."
 #[derive(Clone)]
 pub struct TicketStore {
     tickets: Vec<Ticket>,
