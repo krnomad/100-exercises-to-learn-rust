@@ -2,3 +2,7 @@
 name = "for_"
 version = "0.1.0"
 edition = "2021"
+
+[profile.dev]
+opt-level = 1               # Use slightly better optimizations.
+overflow-checks = true     # Disable integer overflow checks.

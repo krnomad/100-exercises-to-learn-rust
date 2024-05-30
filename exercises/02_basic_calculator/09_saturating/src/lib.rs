@@ -1,13 +1,11 @@
 pub fn factorial(n: u32) -> u32 {
-    let mut result = 1;
+    let mut result: u32 = 1;
     for i in 1..=n {
-// "u32의 최대값에서 멈추기 위해 포화 곱셈을 사용하세요"
-// "넘쳐흐르고 감싸는 것보다"
-        result *= i;
+        // "u32의 최대값에서 멈추기 위해 overflow 와 wrapping around을 사용하지 말고 saturate 사용하세요"
+        result = result.saturating_mul(i);
     }
     result
 }
-
 #[cfg(test)]
 mod tests {
     use crate::factorial;
